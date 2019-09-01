@@ -1,0 +1,35 @@
+.ant-layout-header {
+  padding: 0px;
+}
+header {
+  background: #f5f5f5 !important;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
+
+  .headerCol {
+    position: relative;
+    display: flex;
+
+    .headerLeft,
+    .headerRight {
+      padding-right: 10px;
+      button {
+        span:first-child {
+          margin-right: 10px;
+        }
+        .box {
+          padding: 0px 10px;
+          color: white;
+          border-radius: 5px;
+        }
+        .red {
+          background-color: #f15959;
+        }
+        .blue {
+          background-color: #1967e2;
+        }
+      }
+    }
+  }
+}

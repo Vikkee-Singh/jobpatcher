@@ -1,0 +1,37 @@
+.unScheduled {
+  position: fixed;
+  width: 25%;
+  height: 600px;
+  top: 10%;
+  left: 72%;
+  z-index: 1;
+  padding: 15px;
+  border-top-right-radius: 5px;
+  background: #ffffff !important;
+
+  .unscheduledheade {
+    border-bottom: solid 1px #1890ff33;
+    padding: 15px 0;
+  }
+
+  .jobbox {
+    display: flex;
+    border-bottom: solid 1px #1890ff33;
+    padding: 10px 0px;
+    .jobDisc {
+      padding: 0 10px;
+      width: 100%;
+      .jobTitle {
+        display: flex;
+        justify-content: space-between;
+        .jobType {
+          font-size: 9px;
+          padding: 6px 6px;
+          background-color: red;
+          border-radius: 15px;
+          color: #ffff;
+        }
+      }
+    }
+  }
+}

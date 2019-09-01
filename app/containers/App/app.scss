@@ -1,0 +1,9 @@
+.ant-btn:active,
+.ant-btn:hover {
+  color: #fff !important;
+  border-color: #fff !important;
+  .anticon {
+    position: relative;
+    bottom: 5px;
+  }
+}

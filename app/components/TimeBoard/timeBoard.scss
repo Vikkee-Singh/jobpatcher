@@ -1,0 +1,30 @@
+.horizontal-scroll-wrapper {
+  height: 590px;
+  .displayDate {
+    border-bottom: solid 1px #f2f2f2;
+    text-align: center;
+  }
+  .timeRow {
+    display: flex;
+    .hourbox {
+      display: flex;
+      justify-content: center;
+      width: 100px;
+      height: 50px;
+      align-items: center;
+      border: solid 1px #f2f2f2;
+    }
+    .halfHourcontainer {
+      display: flex;
+      justify-content: space-between;
+      .timebox {
+        display: flex;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        border: solid 1px #f2f2f2;
+      }
+    }
+  }
+}

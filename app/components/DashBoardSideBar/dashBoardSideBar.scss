@@ -1,0 +1,33 @@
+.sideBarContainer {
+  position: fixed;
+  width: 25%;
+  height: 600px;
+  top: 10%;
+  left: 2%;
+  z-index: 1;
+  padding: 15px;
+  border-top-right-radius: 5px;
+  background: #ffffff !important;
+
+  .searchBox {
+    padding-bottom: 10px;
+    border-bottom: solid 1px #1890ff33;
+  }
+
+  .employeebox {
+    display: flex;
+    border-bottom: solid 1px #1890ff33;
+    padding: 10px 0px;
+
+    .empDisc {
+      padding: 0 10px;
+    }
+    .empLine {
+      margin-left: auto;
+      transform: rotate(90deg);
+      position: relative;
+      width: 20px;
+      height: 30px;
+    }
+  }
+}
